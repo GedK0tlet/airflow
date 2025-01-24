@@ -1,12 +1,8 @@
-
-
 from aiogram import Bot, Dispatcher, types
 import asyncio
+from aiogram.client.session.aiohttp import AiohttpSession
 
-
-
-# bot = Bot(token=bot_api)
-# dp = Dispatcher()
+bot_api="7701233425:AAEYRT6i28mAhoDoyQQMbYE4iIRWJnuI_io"
 
 async def main(token, an_message, list_ids):
     # loop = asyncio.get_event_loop()
